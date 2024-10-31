@@ -1,6 +1,6 @@
 package heranca.V2;
 
-public class ProfessorPesquisador extends Professor {
+public class ProfessorPesquisador extends Pessoa {
     
     void pesquisar(){
         System.out.println(nome + "pesquisando...");

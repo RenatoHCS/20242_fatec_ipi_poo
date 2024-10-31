@@ -1,5 +1,5 @@
 package heranca.V2;
 
-public class ProfessorHorista extends Professor{
+public class ProfessorHorista extends Pessoa{
     
 }
