@@ -6,5 +6,7 @@ public class App {
        p.setEmail("joao@email.com");
        var dao = new PessoaDAO();
        dao.cadastrar(p);
+       p.setCodigo(1);
+       p.apagar();
     }
 }

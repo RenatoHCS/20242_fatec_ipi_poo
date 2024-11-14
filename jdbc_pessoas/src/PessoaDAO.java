@@ -19,7 +19,7 @@ ps.close();
     }
 
     public void apagar (Pessoa p) throws Exception{
-        var sql = "DELETE FROM tb_pessoa WHERE codigo = ?";
+        var sql = "DELETE FROM tb_pessoa WHERE cod_pessoa = ?";
         var conexao = ConnectionFactory.conectar();
         var ps = conexao.prepareStatement(sql);
         ps.setInt(1, p.getCodigo());
