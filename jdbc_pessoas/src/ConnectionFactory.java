@@ -1,4 +1,5 @@
 import java.sql.*;
+
 public class ConnectionFactory{
     //string de conexao
     //jdbc:postgresql://localhost:5432/pessoas
@@ -15,9 +16,7 @@ private static final String PASSWORD = "12345678";
 
    public static Connection conectar() {
     try {
-        
-        // TODO: handle exception
-    
+            
     var s = String.format(
         "jdbc:postgresql://%s:%s/%s",
         HOST,PORT,DB
